@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300;600;700&display=swap');
+
+*{margin: 0;
+    padding: 0;
+    box-sizing: border-box;}
+    
+:root{
+--Blue: hsl(223, 87%, 63%);
+--Pale-Blue: hsl(223, 100%, 88%);
+--Light-Red: hsl(354, 100%, 66%);
+--Gray: hsl(0, 0%, 59%);
+--Very-Dark-Blue: hsl(209, 33%, 12%);
+    
+    }
+    
+    body{
+    font-family: 'Libre Franklin',sans-serif;        
+    }
+    .top{margin: 64px 200px;  
+             
+       }
+    .top img{
+        margin: 0px 432px 64px 432px ;
+    }
+    .middle{margin: 96px 400px;
+           
+       }
+    .middle img{
+        width: 624px;        
+    }
+    h1 span{color: var(--Gray);
+        font-weight: 300;}
+    h1 {text-align: center;}
+    .top p{text-align: center;
+            margin: 48px 0px;
+           }
+    input{width: 420px;
+        height: 56px;
+        border-radius: 35px;
+        outline: none;
+        padding: 0px 32px;
+        margin: 0px 0px 0px 192px;}
+      
+    #error{ 
+       height: 32px;
+    margin: -64px 0px 0px 420px;
+    font-style: italic;
+    text-align: left;
+    color: red;}
+    button{width: 200px;
+            height: 56px;
+            background: var(--Blue);
+            color: white;
+            border: none;
+            outline: none;
+            font-size: larger;
+            border-radius: 35px;}
+    button:hover{cursor: pointer;}
+    .bottom{
+        margin: 16px 576px;
+    }
+    .social{display: flex;
+    justify-content: space-around;
+align-items: center;
+    margin: 0px 0px 28px 0px;}
+    .fb{
+        width: 24px;
+        height: 24px;
+        background: url('./images/facebook-circle-line.svg') no-repeat;}
+    .fb:hover{cursor: pointer;
+    background: url('./images/facebook-circle-fill.svg');}
+
+    .tw{
+        width: 24px;
+        height: 24px;
+        background: url('./images/twitter-line.svg') no-repeat;}
+    .tw:hover{cursor: pointer;
+    background: url('./images/twitter-fill.svg');}
+
+    .insta{
+        width: 24px;
+        height: 24px;
+        background: url('./images/instagram-line.svg') no-repeat;}
+    .insta:hover{cursor: pointer;
+    background: url('./images/instagram-fill.svg');}
+
+
+    .bottom p{text-align: center;
+                font-size: 11px;
+            color: var(--Gray);
+            margin: 0px 0px 8px 0px;
+        }
+     
+        .attribution { font-size: 11px; text-align: center; }
+        .attribution a { color: hsl(228, 45%, 44%); }
+    @media screen and (max-width: 600px) {
+        .top {
+            margin: 96px 96px;
+        }
+        .top img{margin:0px 0px 48px 48px;}
+        h1{font-size: 28px;           
+        margin: 0px -80px 48px -80px ;}
+        .top p{margin: 0px -80px 48px -80px ;}
+       form{display: flex;
+    flex-direction: column;}
+    form input{
+        width: 312px;
+        margin: 0px 0px 16px -60px;
+    }
+    form button{
+        width: 312px;
+        margin: 32px 0px 16px -60px;}
+    .middle img{max-width: 100%;
+        margin: 0px;}
+    .middle{margin: 96px 0px 0px 0px;    
+       padding: 16px;}
+    #error{margin: -200px 0px 0px 52px;}
+    .bottom{margin: 0px;}
+    .social{justify-content: center;}
+
+    }
